@@ -1,0 +1,6 @@
+@echo off
+echo Installing dependencies...
+pip install -r requirements.txt
+echo Starting AI Health Companion...
+streamlit run app.py
+pause
